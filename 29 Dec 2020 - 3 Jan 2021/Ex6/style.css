@@ -1,0 +1,45 @@
+.total{
+	color: #1E90FF;
+	margin: auto;
+}
+.allForm{
+	border: 15px solid #1E90FF;
+	border-radius: 10px;
+	width: 400px;
+	margin: auto;
+	margin-top: 20px;
+	padding-left: 29px;
+	padding-bottom: 10px;
+}
+.heading{
+	color: gray;
+	text-align: center;
+}
+.characters{
+	color: red;
+}
+.fbImages, .ggImages, .phImages{
+	width: 100px;
+	height: 45px;
+}
+.loginForm{
+	background-color: #FFFAF0;
+	width: 350px;
+	height: 30px;
+}
+.bg-login{
+	color: white;
+	border-color: #00BFFF;
+	background-color: #1E90FF;
+	width: 350px;
+	height: 35px;
+}
+.bg-none{
+	background-color: white;
+	border:2px solid gray;
+	width: 350px;
+	height: 35px;
+}
+.txt--right{
+	float: right;
+}
