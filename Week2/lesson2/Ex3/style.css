@@ -1,0 +1,11 @@
+.column .heading-red{
+	color: red;
+}
+.background{
+	background-color: #F0FFFF;
+	width:510px;
+	margin: auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
