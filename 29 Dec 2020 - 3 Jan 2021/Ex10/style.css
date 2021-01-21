@@ -1,0 +1,31 @@
+.total{
+	margin: auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid gray;
+	width: 50%;
+}
+.intro{
+	text-align: center;
+}
+.category--address,.info-image{
+	margin-top: -20px;
+}
+.img-phone,.img-mail,.img-cake{
+	width: 30px;
+	height: 30px;
+}
+.hr--black{
+	margin-top: -20px;
+	background-color: black;
+	border: 1px solid black;
+}
+.horizontal-blur{
+	margin-top: -15px;
+	background-color: gray;
+}
+.date{
+	float: right;
+}
