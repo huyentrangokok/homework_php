@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ex4</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form class="form" action="/action_page.php" method="post">
+		<p class="title"><b>Đăng ký thành viên</b></p>
+		<p class="text">Để đăng ký thành viên, bạn cần khai báo tất cả các ô trống dưới đây</p>
+		<table class="box">
+			<tr>
+				<td><input class="input_group" type="text" name="firstname" placeholder="Họ và tên đệm"></td>
+			</tr>
+			<tr>
+				<td><input class="input_group" type="text" name="lastname" placeholder="Tên"></td>
+			</tr>
+			<tr>
+				<td><input class="input_group" type="text" name="username" placeholder="Tên đăng nhập"></td>
+			</tr>
+			<tr>
+				<td><input class="input_group" type="email" name="email" placeholder="Email"></td>
+			</tr>
+			<tr>
+				<td><input class="input_group" type="password" name="password" placeholder="Mật khẩu"></td>
+			</tr>
+			<tr>
+				<td><input class="input_group" type="password" name="Enter_the_password" placeholder="Lặp lại mật khẩu"></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><b class="text_2">Giới tính</b></td>
+				<td class="radio"><input type="radio" name="N/A">N/A
+				<input type="radio" name="N/A">Nam
+				<input type="radio" name="N/A">Nữ</td>
+			</tr>
+		</table>
+		<br>
+		<table class="box">
+			<tr>
+				<td><input class="input_group background_gray" type="date" name="date" value="Ngày tháng năm sinh"></td>
+			</tr>
+			<tr>
+				<td><input class="signature input_group" type="text" name="signature" placeholder="Chữ ký"></td>
+			</tr>
+			<tr>
+				<td><input class="input_group" type="text" name="security_question" placeholder="Câu hỏi bảo mật "></td>
+			</tr>
+			<tr>
+				<td><input class="input_group" type="text" name="answer_the_question" placeholder="Trả lời câu hỏi"></td>
+			</tr>
+		</table>
+		<div class="final">
+			<input type="checkbox" name="checkbox"> Tôi đồng ý với <button class="button_1">Quy định đăng ký thành viên</button>
+			<br><br>
+			<button class="button_2">Thiết lập lại</button> <input class="background_blue" type="submit" name="submit" value="Đăng ký thành viên">
+		</div>
+
+	</form>
+</body>
+</html>
