@@ -1,0 +1,11 @@
+.title{
+	text-align: center;
+}
+.box{
+	width: 100%;
+	border-collapse: collapse;
+}
+.images{
+	width:250px;
+	height:200px;
+}

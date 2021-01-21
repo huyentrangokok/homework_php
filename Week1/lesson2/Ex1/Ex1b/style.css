@@ -1,0 +1,12 @@
+.box{
+	width: 100%;
+	border-collapse: collapse;
+	border:2px solid black;
+}
+.title{
+	text-align: left;
+}
+.images{
+	width:250px;
+	height:200px;
+}
