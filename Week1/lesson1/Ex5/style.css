@@ -1,0 +1,16 @@
+.total{
+	background-color: green;
+}
+.heding-red{
+	color: red;
+}
+.heading-white{
+	color: white;
+}
+.paragraph{
+	background-color: yellow;
+}
+.images{
+	display: block;
+	margin: auto;
+}
