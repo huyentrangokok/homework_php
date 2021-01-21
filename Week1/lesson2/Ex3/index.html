@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Ex3</title>
+</head>
+<body>
+	<hr>
+	<h1>Travel reservation form</h1>
+	<h2>*denotes mandotory</h2>
+	<br>
+	<form action="/action_page.php" method="post">
+		Full name*:<br><input type="text" name="FirstName LastName" placeholder="FirstName LastName">
+		<br>
+		Email address*:<br><input type="Email" name="Email" id="Email">
+		<br>
+		Select Tour Package*:
+		<br>
+		<select>
+			<option>Goa</option>
+			<option>volvo</option>
+		</select>
+		<br>
+		Arrival date*:
+		<br>
+		<input type="date" name="date">
+		<br>
+		Number of persons*:
+		<br>
+		<input type="number" name="number of persons">
+		<br>
+		What would you want to avail?*
+		<br>
+		Boarding <input type="checkbox" name="Boarding" size="5">
+		<br>
+		Fooding <input type="checkbox" name="Fooding" size="5">
+		<br>
+		Sight seeing<input type="checkbox" name="Sight seeing" size="5">
+		<br>
+		Discount Coupon code:
+		<br>
+		<input type="text" name="Sight Coupon">
+		<br>
+		Terms and conditions*
+		<br>
+		<input type="radio" name="I agree">I agree <input type="radio" name="I disagree"> I disagree
+		<br>
+		<input type="submit" name="Complete" value="Complete reservation">
+	</form>
+</body>
+</html>
