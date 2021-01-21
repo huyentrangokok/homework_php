@@ -1,0 +1,19 @@
+.table_1{
+	border-collapse: collapse; 
+	padding:2px;
+}
+.table_2{
+	border: 1px solid gray;
+	padding:0px;
+}
+.column{
+	border: 1px solid gray;
+	padding:1px;
+}
+.row{
+	border: 1px solid black;
+	padding:1px;
+}
+.button{
+	color: blue;
+}
