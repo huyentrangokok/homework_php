@@ -1,0 +1,38 @@
+.content{
+	margin-top: 20px;
+	width: 55%;
+	border: 2px solid gray;
+	margin: auto;
+}
+.block , .group , .element{
+	border-collapse: collapse;
+	padding: 10px;
+}
+.info_button--66FFFF{
+	background-color: #66FFFF;
+	border: none;
+	border-radius: 30px;
+	width: 350px;
+	height: 30px;
+	text-align: center;
+	padding-top: 5px;
+	color: white;
+}
+.info_img--phone{
+	width: 350px;
+	padding-left: 50px;
+}
+.info_img--utilities{
+	width: 350px;
+	padding-right: 50px;
+}
+.info_button--33CC66{
+	background-color: #33CC66;
+	border: none;
+	border-radius: 30px;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	padding-top: 5px;
+	color: white;
+}
