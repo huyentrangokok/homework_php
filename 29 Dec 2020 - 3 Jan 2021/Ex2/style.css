@@ -1,0 +1,32 @@
+.intro{
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;
+}
+.heading--yellow{
+	color: yellow;
+}
+.block, .group, .element{
+	border-collapse: collapse;
+	text-align: center;
+	padding: 20px;
+	margin: auto;
+}
+.info_img--IBM{
+	width: 120px;
+	height: 70px;
+}
+.info_img--windows{
+	width: 80px;
+	height: 70px;
+}
+.info_img--apple{
+	width: 70px;
+	height: 70px;
+}
+.info_img--google{
+	width: 140px;
+	height: 50px;
+	padding-top: 15px;
+	padding-bottom: -50px;
+}
