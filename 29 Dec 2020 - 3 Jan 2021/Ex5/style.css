@@ -1,0 +1,37 @@
+.total{
+	margin: auto;
+	color: #1E90FF;
+	border: 5px solid #00008B;
+	width: 700px;
+	margin-top: 20px;
+}
+.images{
+	width: 400px;
+	height: 300px;
+}
+.allForm{
+	width: 700px;
+	margin: auto;
+	margin-top: 20px;
+	padding-left: 29px;
+	padding-bottom: 10px;
+}
+.characters{
+	color:red;
+}
+.box{
+	width: 250px;
+}
+.txt--gray{
+	color: gray;
+	padding-left: 50px;
+}
+.singUpForm{
+	background-color: green;
+	color: white;
+}
+.bg-none{
+	background-color: white;
+	border:2px solid gray;
+	width: 250px;
+}
