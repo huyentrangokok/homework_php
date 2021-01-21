@@ -1,0 +1,58 @@
+.total{
+	background-color: #F4A460;
+}
+.info-top{
+	margin-top: 20px;
+	text-align: center;
+}
+.title-top, .container{
+	padding-top: 50px;
+	text-align: center;
+}
+.title, .title-top{
+	color: #B22222;
+}
+.title-item{
+	color:#DC143C ;
+}
+.box, .group, .element-left, .element-right{
+	border-collapse: collapse;
+	padding: 50px;
+	margin-left: 350px;
+}
+.making{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.img-making{
+	width: 500px;
+	height: 300px;
+}
+.element-left{
+	background-color: #FAEBD7;
+}
+.element-right{
+	background-color: #FFDAB9;
+}
+.txt-Azure{
+	color: #F0FFFF;
+}
+.instructor_link{
+	margin-left: 150px;
+	padding-bottom: 50px;
+}
+.content{
+	margin: auto;
+	width: 600px;
+	height: 700px;
+	background-color: #F4A460;
+	text-align: center;
+}
+.instructor{
+	text-align: left;
+	margin-left: 10px;
+}
+.img-top{
+	margin-top: 50px;
+	margin-left: 150px;
+}
