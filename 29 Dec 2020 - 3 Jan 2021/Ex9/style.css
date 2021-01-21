@@ -1,0 +1,47 @@
+.total{
+	background-color: #F4A460;
+}
+.info-top{
+	margin-top: 20px;
+	text-align: center;
+}
+.title-top, .container{
+	padding-top: 50px;
+	text-align: center;
+}
+.title, .title-top{
+	color: #B22222;
+}
+.title-item{
+	color:#DC143C ;
+}
+.making, .resources{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.img-making{
+	width: 500px;
+	height: 300px;
+}
+.txt-Azure{
+	color: #F0FFFF;
+}
+.instructor_link{
+	margin-left: 150px;
+	padding-bottom: 30px;
+}
+.content{
+	margin: auto;
+	width: 600px;
+	height: 700px;
+	background-color: #F4A460;
+	text-align: center;
+}
+.instructor{
+	text-align: left;
+	margin-left: 10px;
+}
+.img-top{
+	margin-left: 170px;
+	margin-top: 30px;
+}
