@@ -1,0 +1,17 @@
+.total{
+	background-color: green;
+	width: 100%;
+}
+.heading-red{
+	color: red;
+}
+.heading-white{
+	color: white;
+}
+.paragraph{
+	background-color: yellow;
+}
+.images{
+	display: block;
+	margin: auto;
+}
