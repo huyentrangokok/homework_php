@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ex2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+	<style type="text/css">
+		body{
+			border: 2px solid gray;
+			margin: auto;
+			margin-top: 50px;
+			padding: 50px;
+			width: 300px;
+			height: 450px;
+		}
+	</style>
+</head>
+<body>
+	<form action="#" method="post" class="text-center equationForm">
+		<p class="bg-warning">Giải phương trình bậc nhất <br>ax+b=0</p>
+		<p>Nhập vào hệ số a:<br><input type="number" id="firstNumber"></p>
+		<p>Nhập vào hệ số b:<br><input type="number" id="secondNumber"></p>	
+	</form>
+	<p>Phương trình bậc nhất của bạn có dạng:</p>
+	<p id="print" class="text-primary"></p>
+	<button class="bg-primary text-white" onclick="equation()">Tìm x</button>
+	<p id="result" class="text-success"></p>
+	<script type="text/javascript">
+		function equation(){
+			var a=document.getElementById("firstNumber").value;
+			var b=document.getElementById("secondNumber").value;
+			var x=-b/a;
+			document.getElementById("print").innerHTML=a+"x+"+b+"=0";
+			document.getElementById("result").innerHTML="x="+x;
+		}
+	</script>
+</body>
+</html>
