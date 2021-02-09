@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ex5</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<style type="text/css">
+		body{
+			border: 2px solid gray;
+			margin: auto;
+			margin-top: 50px;
+			padding: 50px;
+			width: 500px;
+			height: 400px;
+		}
+
+	</style>
+</head>
+<body>
+	<form action="#" method="post">
+		<p>Name: <input type="text" id="name"></p>
+		<p>Email: <input type="email" id="email"></p>
+		<p>
+			Country 
+			<select name="Country" id="country">
+				<option>Select-Country</option>
+				<option>Viet Nam</option>
+				<option>Japan</option>
+				<option>USA</option>
+			</select>
+		</p>
+		<input type="submit" value="Send-info" onclick="get()">
+	</form>
+	<div class="text-success">
+		<p id="outName"></p>
+		<p id="outEmail"></p>
+		<p id="outCoutry"></p>
+	</div>
+	<script type="text/javascript">
+		function get(){
+			var userName=document.getElementById("name").value;
+			var userEmail=document.getElementById("email").value;
+			var userCountry=document.getElementById("country").value;
+			if(userName==""){
+				alert("Please enter your Name!");
+			}
+			else if(userEmail==""){
+				alert("Please enter your Email!");
+			}
+			else if(userCountry=="Select-Country"){
+				alert("Please enter your Country!");
+			}
+			else{
+				document.getElementById("outName").innerHTML="Name: "+userName;
+				document.getElementById("outEmail").innerHTML="Email: "+userEmail;
+				document.getElementById("outCoutry").innerHTML="Country: "+userCountry;
+			}
+		}
+	</script>
+</body>
+</html>
