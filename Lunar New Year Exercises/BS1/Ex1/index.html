@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ex1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<style type="text/css">
+		body{
+			border: 2px solid gray;
+			margin: auto;
+			margin-top: 50px;
+			padding: 50px;
+			width: 450px;
+			height: 480px;
+		}
+	</style>
+</head>
+<body>
+	<form action="#" method="post">
+		<p>First name <br><br><input type="text" id="firstName"></p>
+		<p>Last name <br><br><input type="text" id="lastName"></p>
+		<p id="gender"><input type="radio" name="Male"> Male <input type="radio" name="Male"> Female</p>
+		<p><input type="date" name="date" id="dateTime"></p>
+		<button class="bg-primary text-white" onclick="result()">Submit</button>
+	</form>
+	<div class="text-success">
+		<p id="resultName"></p>
+		<p id="resultDate"></p>
+	</div>
+	<script type="text/javascript">
+		function result(){
+			var fname=document.getElementById("firstName").value;
+			var lname=document.getElementById("lastName").value;
+			var dateTime=document.getElementById("dateTime");
+			if(fname==""){
+				alert("Please enter First Name!");
+			}
+			else if(lname==""){
+				alert("Please enter Last Name!");
+			}
+			else{
+				document.getElementById("resultName").innerHTML="Name: "+fname+" "+lname;
+				document.getElementById("resultDate").innerHTML="DateTime: "+dateTime;
+			}
+		}
+	</script>
+</body>
+</html>
