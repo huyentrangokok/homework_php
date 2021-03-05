@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ex1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+</head>
+<body>
+	<div class="container">
+        <label for="numberOfChildren">Number of children</label>
+        <input type="text" name="numberOfChildren" id="numOfChild"> <br>
+        <label for="partnerSName">Partner's Name</label>
+        <input type="text" name="partner'sName" id="partner'sName"> <br>
+        <label for="geographicLocation">Geographic Location</label>
+        <input type="text" name="geographicLocation" id="geographicLocation"><br>
+        <label for="jobTitle">Job title</label>
+        <input type="text" name="jobTitle" id="jobTitle"><br>
+        <button onclick="tellFortune()">Tell Fortune</button><br>
+        <p id="result"></p>
+    </div>
+    <script>
+        function tellFortune(){
+            var numberOfChildren=document.getElementById("numOfChild").value;
+            var partnerSName=document.getElementById("partner'sName").value;
+            var geographicLocation=document.getElementById("geographicLocation").value;
+            var jobTitle=document.getElementById("jobTitle").value;
+            if(numberOfChildren==''||partnerSName==''||geographicLocation==''||jobTitle==''){
+            	alert("Vui lòng nhập đủ dữ liệu!");
+            }
+            else{
+	            document.getElementById("result").innerHTML='You will be a '+ jobTitle +' in '+geographicLocation+', and married to '+ partnerSName+' with '+numberOfChildren;
+	            if(parseInt(numberOfChildren.value)>1){
+	                result.innerHTML+=' kids';
+	            }else{
+	                result.innerHTML+=' kid';
+	            }
+            }
+        }
+    </script>
+</body>
+</html>
